@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/bjw1622/Potfolio#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "bootstrap": "^5.1.3",
+    "express": "^4.17.1",
+    "react": "^17.0.2"
   }
 }
