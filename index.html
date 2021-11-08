@@ -1,70 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jay's Portfolio</title>
-    <meta
-      name="description"
-      content="Portfolio for world-renowed software enginner Jay"
-    />
-    <meta name="author" content="Jay" />
 
-    <link rel="icon" type="image/png" href="imgs/favicon.png" />
-    <script
-      src="https://kit.fontawesome.com/2d323a629b.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <script src="main.js defer"></script>
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav id="navbar">
-      <div class="navbar__logo">
-        <img style="width: 80px" src="imgs/favicon.png" alt="#" />
-        <a href="#">Jay</a>
-      </div>
-      <ul class="naver__menu">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jay's Portfolio</title>
+  <meta name="description" content="Portfolio for world-renowed software engineer Jay" />
+  <meta name="author" content="Jay" />
+
+  <link rel="icon" type="image/png" href="imgs/favicon.png" />
+  <script src="https://kit.fontawesome.com/2d323a629b.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js defer"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="navbar__logo">
+      <img style="width: 64px; height: 22px" src="imgs/favicon.png" alt="">
+      <a href="#">Jay</a>
+    </div>
+    <div>
+      <ul class="navbar__menu">
         <li class="navbar__menu__item">Home</li>
         <li class="navbar__menu__item">About</li>
         <li class="navbar__menu__item">Skills</li>
         <li class="navbar__menu__item">My Work</li>
-        <li class="navbar__menu__item">Testimoial</li>
+        <li class="navbar__menu__item">Testimonials</li>
         <li class="navbar__menu__item">Contact</li>
       </ul>
-    </nav>
+    </div>
+  </nav>
+  <!-- Home -->
+  <section id="home">
+    <img src="imgs/profile.png" alt="Jay's profile photo" class="home__avatar" />
+    <h1 class="home__title">Hello,<br />I'm Jay</h1>
+    <h2 class="home__description">Dreaming of becoming a front-end developer.</h2>
+    <button class="home__contact">Contact me</button>
+  </section>
+  <!-- About -->
+  <section id="about">
+    <h1>About me</h1>
+    <p>I'm dreaming of becoming a front-end developer because I like to communicate with users and see the results.</p>
+    <div class="about__majors">
+      <div class="major">
+        <div class="major__icon"><i class="fab fa-html5"></i></div>
+        <div class="major__title">Front-end</div>
+        <div class="major__description">HTML, CSS, JavaScript</div>
+      </div>
+      <div class="major">
+        <div class="major__icon"><i class="fab fa-html5"></i></div>
+        <div class="major__title">Front-end</div>
+        <div class="major__description">HTML, CSS, JavaScript</div>
+      </div>
+      <div class="major">
+        <div class="major__icon"><i class="fab fa-html5"></i></div>
+        <div class="major__title">Front-end</div>
+        <div class="major__description">HTML, CSS, JavaScript</div>
+      </div>
+      <div class="about__jobs">
+        <div class="job">
+          <img src="" alt="job__logo">
+          <p class="job__name"></p>
+          <p class="job__period"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Skills -->
+  <section id="skills">
+    <h1>Skills</h1>
+    <h2>Skills & Attributes</h2>
+    <p>I am interested in learning and applying new things.</p>
+    <div class="skillset">
+      <div class="skillset_left">
+        <h3 class="skillset_title">Skills</h3>
+        <div class="skill">
+          <div class="skill_description">
+            <span>HTML</span>
+            <span>70%</span>
+            <div class="skill__bar">
+              <div class="skill__value"></div>
+            </div>
+          </div>
+          <div class="skill_description">
+            <span>CSS</span>
+            <span>50%</span>
+            <div class="skill__bar">
+              <div class="skill__value"></div>
+            </div>
+          </div>
+          <div class="skill_description">
+            <span>JavaScript</span>
+            <span>50%</span>
+            <div class="skill__bar">
+              <div class="skill__value"></div>
+            </div>
+          </div>
+          <div class="skill_description">
+            <span>React</span>
+            <span>0%</span>
+            <div class="skill__bar">
+              <div class="skill__value"></div>
+            </div>
+          </div>
+          <div class="skill_description">
+            <span>TypeScript</span>
+            <span>0%</span>
+            <div class="skill__bar">
+              <div class="skill__value"></div>
+            </div>
+          </div>
+          <div class="skill_description">
+            <span>Python</span>
+            <span>60%</span>
+            <div class="skill__bar">
+              <div class="skill__value"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skillset_right">
+        <div class="tools">
+          <h3 class="skillset__title">Tools</h3>
+          <ul class="tools_list">
+            <li>VSC</li>
+            <li>IntellJ</li>
+            <li>Numpy</li>
+          </ul>
+        </div>
+        <div class="etc">
+          <h3 class="skillset__title">Etc</h3>
+          <ul class="et__list">
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Slack</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Work -->
+  <section id="work">
+    <h1>My work</h1>
+    <h3>Projects</h3>
+    <div class="work__categories">
+      <button class="catergory__btn">All <span class="category__count">8</span></button>
+      <button class="catergory__btn">FrontEnd <span class="category__count">3</span></button>
+      <button class="catergory__btn">BackEnd <span class="category__count">3</span></button>
+      <button class="catergory__btn">Mobile <span class="category__count">3</span></button>
+    </div>
+    <div class="work__projects">
+      <a 
+      href="https://github.com/bjw1622/CP" 
+      class="project"
+      target="blank">
+      <img class="project__img"src="imgs/projects/project1.png" alt="">
+      </a>
 
-    <!-- Home -->
-    <section id="home">
-      <img
-        src="imgs/profile.png"
-        alt="Jay's profile photo"
-        class="home__avatar"
-      />
-      <h1>
-        Hello,<br />
-        I'm Jay
-      </h1>
-      <h2>I want to be a Frontend Enginner</h2>
-      <button class="home__contact">CONTACT ME</button>
-    </section>
-    <!-- About -->
-    <section id="about"></section>
-    <!-- Skills -->
-    <section id="skills"></section>
-    <!-- Work -->
-    <section id="work"></section>
-    <!-- Tesstimonials -->
-    <section id="testimonials"></section>
-    <!-- Contact -->
-    <section id="contact"></section>
-  </body>
+      <a 
+      href="https://github.com/bjw1622/CP" 
+      class="project"
+      target="blank">
+      <img class="project__img"src="imgs/projects/project2.png" alt="">
+      </a>
+
+      <a 
+      href="https://github.com/bjw1622/CP" 
+      class="project"
+      target="blank">
+      <img class="project__img"src="imgs/projects/project3.png" alt="">
+      </a>
+
+      <a 
+      href="https://github.com/bjw1622/CP" 
+      class="project"
+      target="blank">
+      <img class="project__img"src="imgs/projects/project4.png" alt="">
+      </a>
+
+      <a 
+      href="https://github.com/bjw1622/CP" 
+      class="project"
+      target="blank">
+      <img class="project__img"src="imgs/projects/project5.png" alt="">
+      </a>
+
+      <a 
+      href="https://github.com/bjw1622/CP" 
+      class="project"
+      target="blank">
+      <img class="project__img"src="imgs/projects/project6.png" alt="">
+      </a>
+
+      <a 
+      href="https://github.com/bjw1622/CP" 
+      class="project"
+      target="blank">
+      <img class="project__img"src="imgs/projects/project7.png" alt="">
+      </a>
+
+      <a 
+      href="https://github.com/bjw1622/CP" 
+      class="project"
+      target="blank">
+      <img class="project__img"src="imgs/projects/project8.png" alt="">
+      </a>
+    </div>
+  </section>
+  <!-- Testimonials -->
+  <section id="testimonials">
+    <h1>Testimonials</h1> 
+    <h3>See what they say about me</h3>
+    <div class="testimonials">
+      <div class="testimonial">
+        <img src="imgs/people/people1.jpg" alt="People" class="testimonial__avatar">
+        <div class="testimonial__speech-bubble">
+          <p></p>
+          <p class="name"><a target="blank" href="https://github.com/bjw1622/CP">Ellie</a>/ DreamingCoding</p>
+        </div>
+      </div>
+      <div class="testimonial">
+        <img src="imgs/people/people1.jpg" alt="People" class="testimonial__avatar">
+        <div class="testimonial__speech-bubble">
+          <p></p>
+          <p class="name"><a target="blank" href="https://github.com/bjw1622/CP">Ellie</a>/ DreamingCoding</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact -->
+  <section id="contact"></section>
+
+</body>
+
 </html>
