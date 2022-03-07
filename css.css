@@ -2,7 +2,7 @@
   font-family: 'Open Sans', sans-serif;
   --background-color: black;
 }
-
+/* css variable 적용 */
 body {
   background-color: var(--background-color);
 }
