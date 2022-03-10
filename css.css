@@ -3,6 +3,6 @@
   --background-color: black;
 }
 /* css variable 적용 */
-body {
+/* body {
   background-color: var(--background-color);
-}
+} */
