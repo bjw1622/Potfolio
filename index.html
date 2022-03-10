@@ -11,23 +11,19 @@
       content="Porfolio for world-renowned FrontEnd developer Jay"
     />
     <meta name="author" content="Jay" />
-    <link rel="icon" type="image/png" />
-    <script
-      src="https://kit.fontawesome.com/2d323a629b.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="css.css" />
+    <script src="https://kit.fontawesome.com/203cccc5eb.js" crossorigin="anonymous"></script>
     <script src="main.js" defer></script>
-  </head>
   <body>
+
     <!-- Navbar -->
     <nav id="navbar">
       <div class="navbar__logo">
@@ -43,6 +39,7 @@
         <li class="navbar__menu__itme">Contact</li>
       </ul>
     </nav>
+
     <!-- Home -->
     <section id="home">
       <img
@@ -59,8 +56,56 @@
       </h2>
       <button class="home__contact">Contact me</button>
     </section>
+
     <!-- About -->
-    <section id="about"></section>
+    <section id="about">
+      <h1>About me</h1>
+      <!-- 내가 원하는 분야에 나를 돋보이는, 포부, 어떤 프론트 개발자가 되고싶은지 -->
+      <p></p>
+      <div class="about__major">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="major__title">Front-End</div>
+          <div class="major__description">HTML5, CSS3, JavaScript</div>
+        </div>
+      </div>
+      <div class="major">
+        <div class="major__icon">
+          <i class="fab fa-react"></i>     
+        </div>
+        <div class="major__title">React</div>
+        <div class="major__description"></div>
+      </div>
+    </div>
+    <div class="major">
+      <div class="major__icon">
+        <i class="fab fa-python"></i>
+      </div>
+      <div class="major__title">Python</div>
+      <div class="major__description"></div>
+    </div>
+    <!-- 쉐어앤쉐어 -->
+    <div class="about__jobs">
+      <div class="job">
+        <img src="imgs/jobs/sharenshare.png" alt="" class="job__logo">
+        <p class="job__name"></p>
+        <p class="job__period"></p>
+      </div>
+      <div class="job"></div>
+    </div>
+    <!-- 아트웍스코리아 -->
+    <div class="about__jobs">
+      <div class="job">
+        <img src="imgs/jobs/artworks.png" alt="" class="job__logo">
+        <p class="job__name"></p>
+        <p class="job__period"></p>
+      </div>
+      <div class="job"></div>
+    </div>
+  </div>
+    </section>
     <!-- Skills -->
     <section id="skills"></section>
     <!-- Work -->
